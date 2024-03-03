@@ -1,4 +1,4 @@
-## Laporan Praktikum - #02 Pengenalan ReactJS
+## **Laporan Praktikum - #02 Pengenalan ReactJS**
 
 |  | Pemrograman Berbasis Framework 2024 |
 |--|--|
@@ -7,7 +7,7 @@
 | Kelas | TI - 3A |
 
 
-## Praktikum Membuat Project Pertama ReactJS
+## **Praktikum Membuat Project Pertama ReactJS**
 ---
 Membuat folder belajar-react
 
@@ -17,7 +17,7 @@ Membuat Project "hello-world"
 
 ![Screenshot](assets-report/01.png)
 
-### Jawaban Soal 1
+### **Jawaban Soal 1**
 
 Pada gambar tersebut, yang dimaksud dengan:
 
@@ -36,7 +36,7 @@ Membuka project degan VS Code
 ![Screenshot](assets-report/02.png)
 ![Screenshot](assets-report/03.png)
 
-### Jawaban Soal 2
+### **Jawaban Soal 2**
 
 ![Screenshot](assets-report/04.png)
 
@@ -67,4 +67,23 @@ Pada struktur project, berikut kegunaan folder dan file masing-masing tersebut:
 - `tailwind.config.ts:` Berkas konfigurasi untuk Tailwind CSS,  berisi preferensi dan aturan yang digunakan oleh Tailwind CSS saat memproses dan mengonversi kode CSS, seperti aturan penulisan, aturan kualitas, dan aturan lainnya.
 
 - `tsconfig.json:` Berkas konfigurasi untuk TypeScript, berisi preferensi dan aturan yang digunakan oleh TypeScript saat memeriksa dan mengonversi kode JavaScript, seperti aturan penulisan, aturan kualitas, dan aturan lainnya.
+
+Menjalankan project
+
+```
+npm run dev
+```
+
+![Screenshot](assets-report/05.png)
+
+### **Jawaban Soal 3**
+
+Mengubah text dengan Nama - NIM
+
+![Screenshot](assets-report/06.png)
+
+Ketika telah berhasil mengganti teks tersebut, tidak perlu menjalankan perintah `npm run dev` dan tidak juga diperlukan me-reload halaman di browser. Tiba-tiba perubahan itu tampil, Mengapa terjadi demikian?
+
+- Hal tersebut dapat terjadi karena fitur Hot Module Replacement (HMR) dalam lingkungan pengembangan React. HMR memungkinkan React untuk mengganti komponen yang telah diubah secara langsung, mempercepat proses pengembangan dengan menampilkan perubahan langsung di browser tanpa tindakan tambahan. 
+- Ketika kita membuat perubahan pada kode sumber React, misalnya mengubah teks dalam komponen, Webpack akan mendeteksi perubahan tersebut. Kemudian, melalui HMR, Webpack akan mengganti komponen yang telah diubah dengan versi yang baru secara langsung di dalam aplikasi yang sedang berjalan, tanpa perlu me-reload seluruh halaman.
 
