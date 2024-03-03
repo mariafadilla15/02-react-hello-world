@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Laporan Praktikum - #02 Pengenalan ReactJS
 
-## Getting Started
+|  | Pemrograman Berbasis Framework 2024 |
+|--|--|
+| NIM |  2141720063|
+| Nama |  Maria Fadilla |
+| Kelas | TI - 3A |
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Praktikum Membuat Project Pertama ReactJS
+---
+Membuat folder belajar-react
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot](assets-report/00.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Membuat Project "hello-world"
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Screenshot](assets-report/01.png)
 
-## Learn More
+### Jawaban Soal 1
 
-To learn more about Next.js, take a look at the following resources:
+Pada gambar tersebut, yang dimaksud dengan:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `TypeScript` merupakan superset dari JavaScript — dibuat oleh Microsoft — yang artinya semua kode JavaScript adalah kode TypeScript juga. Typescript adalah bahasa pemrograman superset dari Javascript yang memiliki fitur-fitur seperti Static Typing, OOP, dan Dynamic Typing. Typescript di-compile menjadi Javascript dengan tsc (Typescript Compiler), setelah itu kita bisa jalankan dengan runtime Javascript seperti Nodejs, Deno, Bun, dan Web browser. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `ESLint` adalah salah satu tools JavaScript untuk melakukan static analyzes kode kita agar kita tau dengan cepat menemukan masalah atau potensi bug dari kode yang sudah kita buat. ESLint dapat diintegrasikan dengan JavaScript dan TypeScript.
 
-## Deploy on Vercel
+- `Tailwind CSS` Tailwind CSS yaitu kerangka kerja CSS yang berisi sekumpulan utility classes untuk membangun antarmuka kustom dengan cepat. Berbeda dengan kerangka kerja CSS seperti Bootstrap, Bulma, atau Foundation, Tailwind CSS bukan sebuah UI Framework. Pendekatan “utility-first” yang diusung oleh Tailwind memungkinkan pengembang untuk membangun desain dengan cepat menggunakan kelas-kelas kecil dan fleksibel yang mewakili properti CSS tertentu.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `App Router` App Router (atau sering disebut sebagai aplikasi router) adalah bagian dari framework atau perpustakaan yang mengatur rute (routing) di dalam aplikasi web atau aplikasi berbasis web. Ini memungkinkan navigasi antara halaman-halaman atau tampilan-tampilan yang berbeda dalam aplikasi tanpa harus memuat ulang halaman utama.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `Import alias` Import alias adalah cara untuk membuat alias atau nama singkat untuk berkas yang diimpor di dalam sebuah skrip JavaScript atau TypeScript. Biasanya, import alias digunakan untuk menghindari konflik nama atau mempersingkat nama yang panjang.
