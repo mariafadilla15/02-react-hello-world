@@ -88,6 +88,7 @@ Ketika telah berhasil mengganti teks tersebut, tidak perlu menjalankan perintah 
 - Ketika kita membuat perubahan pada kode sumber React, misalnya mengubah teks dalam komponen, Webpack akan mendeteksi perubahan tersebut. Kemudian, melalui HMR, Webpack akan mengganti komponen yang telah diubah dengan versi yang baru secara langsung di dalam aplikasi yang sedang berjalan, tanpa perlu me-reload seluruh halaman.
 
 ## **Tugas Praktikum**
+---
 
 Cobalah buat project react lainnya dengan menggunakan framework Remix dan Gatsby, jelaskan perbedaannya diantara ketiga framework tersebut (termasuk Next.js) 
 
@@ -123,8 +124,45 @@ gatsby develop
 
 ![Screenshot](assets-report/10.png)
 
-- Perbedaan
+- Perbedaan antara:
 
-    1. Next.js
-    2. Remix 
-    3. Gatsby
+    1. Next.js,
+    2. Remix ,
+    3. Gatsby.
+
+=> Perbedaan utama di antara ketiganya adalah dalam pendekatan routing, pengambilan data, dan cara mereka menghasilkan halaman. Next.js menonjol dengan SSR (Server-Side Rendering) dan SSG (Static Site Generation), sementara Remix menekankan produktivitas pengembangan dengan integrasi SSR (Server-Side Rendering) dan CSR (Client-Side Rendering) yang fleksibel. Sementara itu, Gatsby difokuskan pada pembuatan situs web statis dengan memanfaatkan GraphQL.
+
+## **Komponen React**
+---
+
+Aplikasi React dibuat dari komponen. Komponen adalah bagian dari UI (user interface, antarmuka pengguna) yang memiliki logika dan tampilan tersendiri. Sebuah komponen dapat berukuran sekecil tombol, atau sebesar seluruh halaman.
+
+Komponen React adalah fungsi JavaScript yang mengembalikan markup.
+
+### **Jawaban Soal 4**
+
+Membuat komponen MyTextNimName() dan memanggilnya
+
+![Screenshot](assets-report/11.png)
+
+- Hasilnya adalah tidak ada perubahan tampilan, mengapa demikian? Hal tersebut karena ketika memanggil komponen, akan diperlakukan seperti kode di dalam komponen tersebut. 
+
+## **Menulis markup dengan JSX**
+---
+
+Membuat komponen MyPage() berdasarkan project praktikum 1 yang berisi kode-kode HTML dari fungsi Home(). Lalu memanggil komponen tersebut. 
+
+![Screenshot](assets-report/12.png)
+
+
+### **Jawaban Soal 5**
+
+Apakah ada perubahan tampilan ? Mengapa demikian ?
+
+- Sama halnya pada soal 4, tidak ada perubahan tampilan. Hal tersebuut karena ketika memanggil komponen MyPage() yang berisi seluruh kode fungsi Home(), maka juga akan diperlakukan seperti kode di dalam komponen tersebut.
+
+### **Jawaban Soal 6**
+
+Gunakanlah Kode JSX image, ganti dengan NIM, Nama Anda beserta link gambar ganti dengan foto Anda (bisa dari link medsos atau lainnya). Push codenya dan screenshot hasilnya.
+
+![Screenshot](assets-report/13.png)
