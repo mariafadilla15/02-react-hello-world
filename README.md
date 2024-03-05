@@ -1,4 +1,4 @@
-## **Laporan Praktikum - #02 Pengenalan ReactJS**
+# **Laporan Praktikum - #02 Pengenalan ReactJS**
 
 |  | Pemrograman Berbasis Framework 2024 |
 |--|--|
@@ -87,3 +87,44 @@ Ketika telah berhasil mengganti teks tersebut, tidak perlu menjalankan perintah 
 - Hal tersebut dapat terjadi karena fitur Hot Module Replacement (HMR) dalam lingkungan pengembangan React. HMR memungkinkan React untuk mengganti komponen yang telah diubah secara langsung, mempercepat proses pengembangan dengan menampilkan perubahan langsung di browser tanpa tindakan tambahan. 
 - Ketika kita membuat perubahan pada kode sumber React, misalnya mengubah teks dalam komponen, Webpack akan mendeteksi perubahan tersebut. Kemudian, melalui HMR, Webpack akan mengganti komponen yang telah diubah dengan versi yang baru secara langsung di dalam aplikasi yang sedang berjalan, tanpa perlu me-reload seluruh halaman.
 
+## **Tugas Praktikum**
+
+Cobalah buat project react lainnya dengan menggunakan framework Remix dan Gatsby, jelaskan perbedaannya diantara ketiga framework tersebut (termasuk Next.js) 
+
+- Framework Remix
+```
+npx create-remix@latest try-remix-project
+```
+
+![Screenshot](assets-report/07.png)
+
+```
+cd try-project-remix
+```
+```
+npm run dev
+```
+
+![Screenshot](assets-report/08.png)
+
+- Framework Gatsby
+```
+gatsby new try-gatsby-project
+```
+
+![Screenshot](assets-report/09.png)
+
+```
+cd try-gatsby-project
+```
+```
+gatsby develop
+```
+
+![Screenshot](assets-report/10.png)
+
+- Perbedaan
+
+    1. Next.js
+    2. Remix 
+    3. Gatsby
